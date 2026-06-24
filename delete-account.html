@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ForgeLine 계정·데이터 삭제 요청</title>
+<style>
+  :root { --fg:#1d1d1f; --muted:#6b6b70; --accent:#FF6B35; --line:#e5e5ea; }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+         color:var(--fg); line-height:1.7; background:#fafafa; }
+  .wrap { max-width:760px; margin:0 auto; padding:28px 20px 80px; }
+  h1 { font-size:1.6rem; margin:0 0 4px; }
+  h2 { font-size:1.15rem; margin:32px 0 8px; padding-top:10px; border-top:1px solid var(--line); }
+  .meta { color:var(--muted); font-size:.9rem; margin-bottom:20px; }
+  .note { background:#fff5f0; border:1px solid #ffd8c4; border-radius:8px; padding:12px 14px; font-size:.9rem; color:#8a3d1a; margin:16px 0; }
+  table { width:100%; border-collapse:collapse; margin:10px 0; font-size:.92rem; }
+  th,td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#f2f2f5; }
+  ul { padding-left:20px; }
+  code { background:#f0f0f3; padding:1px 5px; border-radius:4px; font-size:.88em; }
+  .btn { display:inline-block; background:var(--accent); color:#fff; text-decoration:none; font-weight:700;
+         padding:12px 22px; border-radius:10px; margin:12px 0; }
+  .email { font-weight:700; color:var(--accent); }
+  footer { margin-top:40px; color:var(--muted); font-size:.85rem; }
+  footer a { color:var(--muted); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>ForgeLine — 계정 및 데이터 삭제 요청</h1>
+  <div class="meta">앱: ForgeLine · 개발사: RiverGameForge · 시행일 2026-06-24</div>
+
+  <p>ForgeLine 이용자는 본 페이지를 통해 <strong>본인 계정과 관련 데이터의 삭제</strong>를 요청할 수 있습니다. 요청은 아래 이메일로 접수하며, 본인 확인 후 처리합니다.</p>
+
+  <h2>1. 삭제 요청 방법</h2>
+  <p>아래 이메일로 <strong>계정 삭제 요청</strong>임을 알려 주시고, 본인 계정을 확인할 수 있는 정보(앱 내에서 확인 가능한 <strong>사용자 ID(UID) 또는 닉네임</strong>)를 함께 보내 주세요.</p>
+  <p><a class="btn" href="mailto:rivergameforge@gmail.com?subject=%5BForgeLine%5D%20%EA%B3%84%EC%A0%95%C2%B7%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD&body=%E2%96%A0%20%EB%8B%89%EB%84%A4%EC%9E%84%2FUID%3A%20%0A%E2%96%A0%20%EC%9A%94%EC%B2%AD%20%EB%82%B4%EC%9A%A9%3A%20%EA%B3%84%EC%A0%95%20%EB%B0%8F%20%EA%B4%80%EB%A0%A8%20%EB%8D%B0%EC%9D%B4%ED%84%B0%20%EC%A0%84%EC%B2%B4%20%EC%82%AD%EC%A0%9C%20%EC%9A%94%EC%B2%AD%ED%95%A9%EB%8B%88%EB%8B%A4.%0A">📧 삭제 요청 메일 보내기</a></p>
+  <p>이메일: <span class="email">rivergameforge@gmail.com</span> (버튼이 동작하지 않으면 이 주소로 직접 보내 주세요.)</p>
+
+  <h2>2. 삭제되는 데이터</h2>
+  <p>요청이 처리되면 아래 데이터가 <strong>복구 불가능하게 영구 삭제</strong>됩니다.</p>
+  <ul>
+    <li>게스트 계정 식별자(UUID), 닉네임</li>
+    <li>게임 진행도(스테이지·전적), 보유 재화·아이템·캐릭터, 랭킹 기록 등 서비스 내 개인 데이터</li>
+  </ul>
+
+  <h2>3. 법령에 따라 일정 기간 보존되는 데이터</h2>
+  <p>아래 정보는 관련 법령상 의무에 따라 삭제 요청과 무관하게 해당 기간 동안 보존된 뒤 파기됩니다.</p>
+  <table>
+    <tr><th>항목</th><th>보존기간</th><th>근거</th></tr>
+    <tr><td>계약·청약철회 등에 관한 기록</td><td>5년</td><td>전자상거래법</td></tr>
+    <tr><td>대금결제·재화 공급에 관한 기록</td><td>5년</td><td>전자상거래법</td></tr>
+    <tr><td>소비자 불만·분쟁처리에 관한 기록</td><td>3년</td><td>전자상거래법</td></tr>
+    <tr><td>접속 로그·접속지 추적자료</td><td>3개월</td><td>통신비밀보호법</td></tr>
+  </table>
+
+  <h2>4. 처리 기간</h2>
+  <p>요청 접수 및 본인 확인 후 <strong>지체 없이(영업일 기준 최대 14일 이내)</strong> 처리합니다.</p>
+
+  <p class="note">※ 계정 삭제는 <strong>되돌릴 수 없으며</strong>, 보유 중인 재화·아이템·결제로 획득한 콘텐츠는 모두 소멸합니다. 삭제 후 동일 데이터는 복구되지 않습니다.</p>
+
+  <footer>© RiverGameForge — ForgeLine · <a href="./">개인정보처리방침</a></footer>
+</div>
+</body>
+</html>
